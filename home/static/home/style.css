@@ -1,0 +1,88 @@
+/** HTML and BODY
+============================================================**/
+
+html{
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow-y: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+}
+
+
+/** CONTAINERS ALL
+============================================================**/
+#home{
+  /* background-image: url("https://wallpaperset.com/w/full/e/5/d/141976.jpg"); */
+  background-color: green;
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about{
+  background-color: blue;
+  height: 100vh;
+}
+#contact{
+  background-color: red;
+  height: 100vh;
+}
+/** NAV BAR
+============================================================**/
+
+.navbar-default{
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: red;
+  opacity: 0.75;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffffff;
+  opacity: 0.75;
+}
+.user{
+  background-color: #F64C72;
+}
+
+.form-control{
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.navbar-brand{
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.navbar-brand span{
+  font-family: "Meddon" , cursive;
+  color: #F64C72;
+}
+
+/** WELCOME TEXT
+============================================================**/
+
+.register-form , .login-form{
+  margin: auto;
+  width: 550px;
+  border: 1px solid #000000;
+}
+.register-form ul{
+  list-style: none;
+}
